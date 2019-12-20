@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.constraint.ConstraintLayout
+    android:id="@+id/cl"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/talent_tn"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/nama_talent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA TALENT"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/event"
+                    android:text="Event :"
+                    android:textSize="10sp"
+                    android:layout_below="@+id/nama_talent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/nama_event"
+                    android:text="Nama Event"
+                    android:textSize="10sp"
+                    android:layout_below="@+id/nama_talent"
+                    android:layout_toRightOf="@id/event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/stts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/event"
+                    android:textSize="10sp"
+                    android:text="Status :"/>
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/stts"
+                    android:textSize="10sp"
+                    android:layout_below="@+id/event"
+                    android:text="Waiting"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>

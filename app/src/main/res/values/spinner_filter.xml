@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_filter">
+        <item>Semua</item>
+        <item>Penyanyi</item>
+        <item>Pemain Musik</item>
+        <item>Penari</item>
+        <item>Band/Vocal Group</item>
+        <item>MC</item>
+        <item>DJ</item>
+        <item>Pesulap/Badut</item>
+        <item>Fotografer</item>
+        <item>Videografer</item>
+    </string-array>
+</resources>
